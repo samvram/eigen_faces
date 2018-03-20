@@ -1,6 +1,6 @@
 # Face Recognition using Principal Component Analysis(PCA) in Python
 
-This assignment is for coursework of **AV493 - Machine Learning for Signal Processing** done under the guidance  of 
+This assignment is for coursework of **AV493 - Machine Learning for Signal Processing(MLSP)** done under the guidance  of 
 **Dr. Deepak Mishra**, by **Samvram Sahu**, SC15B132.
 
 In this assignment we will implement the Eigenface method for recognizing human faces. You will
