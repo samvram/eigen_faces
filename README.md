@@ -46,8 +46,7 @@ X
 .   That  is,
 x
 i
-:
-=
+:=
 x
 i
 −
@@ -64,11 +63,10 @@ X
  The mean subtracted face of tenth person is:
  ![Mean Subtracted Face](mean_subtracted.png)
  
- Perform Singular Value Decomposition (SVD) on training set
+Perform Singular Value Decomposition (SVD) on training set
 X
 (
-X
-=
+X=
 U
 Σ
 V
@@ -98,9 +96,9 @@ eigenface
 ![Eigen Faces](Eigen_Faces.png)
 
 ##  Low-rank Approximation 
- Since
-Σ
-is a diagonal matrix with non-negative real numbers on
+ 
+ 
+Since Σ is a diagonal matrix with non-negative real numbers on
 the diagonal in non-ascending order, we can use the first
 r
 elements in
@@ -121,8 +119,7 @@ X
 by
 ˆ
 X
-r
-=
+r=
 U
 [:, :
 r
@@ -161,8 +158,7 @@ F
 as a function of
 r
 when
-r
-=
+r=
 1, 2, . . . , 200.
 
 ![Error](Error.png)
@@ -176,8 +172,7 @@ V
 T
 [:
 r
-, :]
-=
+, :]=
 {
 v
 1
@@ -225,15 +220,13 @@ r
 vector
 f
 :
-f
-=
+f=
 V
 T
 [:
 r
 , :]
-z
-=
+z=
 [
 v
 1
@@ -269,8 +262,7 @@ test
 
 ## Face Recognition
  We extract training and test features for
-r
-=10.  We train a Logistic Regression
+r=10.  We train a Logistic Regression
 model using
 F
 and test on
